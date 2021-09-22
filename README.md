@@ -2,12 +2,10 @@
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ayrbox)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayrbox)
 
-I love solving problems, helping other and be creative. I get to do all three as software engineer.
-Writing software that automates or simplifies someone's work is magical feelings. You have to creative on tacking new problems and produce elegant solution.
-You have to love solving problem to persist with a problem until its solved.
+I love solving problems, helping others and being creative. I get to do all three as a software engineer. Writing software that automates or simplifies someone's work is magical. You have to be creative to tackle problems and produce elegant solutions. To be persistent with a problem, you have to love solving problems.
 
-At job, I advocaate simple design that resusable and well tested. I belive understanding domain knowledge and focusing user experience (UX), developer experience (DX) is harder than writing coding.
-I have had opportunitiy to guide and help junior devs which I absolutely enjoyed.
+At my job, I advocate simple design that is reusable and well tested. I believe understanding domain knowledge and focusing on user experience (UX), developer experience (DX) is harder than writing coding. I have had opportunities to guide and help junior devs which I absolutely enjoyed.
+
 
 ## Technical Skills 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
