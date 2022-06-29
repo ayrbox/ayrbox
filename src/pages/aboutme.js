@@ -6,7 +6,7 @@ const SecondPage = () => (
     <h1>About me</h1>
     <p>
       My name is Sabin and I am NodeJS Developer @{" "}
-      <a href="https://www.duedil.com/">DueDil</a>.
+      <a href="https://veed.io/">Veed</a>.
     </p>
     <p>
       Curious and Self-motivated full stack developer and a technology
