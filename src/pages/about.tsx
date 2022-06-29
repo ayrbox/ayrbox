@@ -2,8 +2,8 @@ import React from "react";
 import Link from "gatsby-link";
 
 const SecondPage = () => (
-  <div>
-    <h1>About me</h1>
+  <div className="container mx-auto">
+    <h1 className="text-2xl">About me</h1>
     <p>
       My name is Sabin and I am NodeJS Developer @{" "}
       <a href="https://veed.io/">Veed</a>.
