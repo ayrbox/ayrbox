@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi All</h1>
+  <div className="container auto-mx px-20"> 
+    <h1 className="text-2xl">Hi All</h1>
     <p>Welcome to beans Ayrbox</p>
     <p>
       I am a full stack developer and I am starting my blog to document my

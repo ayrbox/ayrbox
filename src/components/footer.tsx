@@ -1,14 +1,14 @@
 import React from 'react'
 
 const Footer = () => (
-  <div className="footer-wrapper" id="contact">
-    <div className="container">
+  <div className="bg-slate-500 text-white" id="contact">
+    <div className="container mx-auto px-20 py-24">
       <div className="row align-items-end">
         <div className="col-sm-4">
           <h3>&nbsp;</h3>
           <div className="footer-logo">
             <h3>Contact</h3>
-            <a href="mailto:beans@ayrbox.com">beans@ayrbox.com</a>
+            <a href="mailto:beans@ayrbox.com">sabin.dangol@hotmail.com</a>
             <ul className="social-contacts">
               <li>
                 <a className="icon-wrapper" href="#">
