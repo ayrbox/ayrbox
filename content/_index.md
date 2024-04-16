@@ -1,17 +1,11 @@
 +++
-title = "Docker"
+title = "welcome to ayrbox"
 description = "Hugo, the world's fastest framework for building websites"
 date = "2019-02-28"
 aliases = []
 author = "Hugo Authors"
 +++
 
+# Hello I am ayrbox
 
-# Complile solidity using solc
-
-
-Using docker
-
-```
-alias solc="docker run -v \"$PWD:/solidity\" ethereum/solc:0.4.25"
-```
+This is just test
