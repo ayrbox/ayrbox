@@ -10,7 +10,7 @@ theme = "tailwind"
   contentTypeName = "posts"
 
   [params.header]
-    logo = "logo.webp"
+    logo = "logo.svg"
 
   [params.footer]
     since = 2018
@@ -22,12 +22,12 @@ theme = "tailwind"
     identifier = "post"
     name = "Post"
     pageRef = "/posts"
-    weight = 0
+    weight = 100
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    pageRef = "/about"
+    identifier = "whoami"
+    name = "Who am I"
+    pageRef = "/who-am-i"
     weight = 10
 
 [taxonomies]
