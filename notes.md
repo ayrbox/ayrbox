@@ -10,6 +10,8 @@ function getDateTime(time: number) {
 }
 </script>
 
+# Ayrbox Notes
+
 <ul class="blog-list">
   <li class="blog-entry" v-for="note of data">
     <article>
