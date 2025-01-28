@@ -21,6 +21,13 @@ function getDateTime(time: number) {
       <h2 class="title">
         <a :href="note.url">{{ note.title }}</a>
       </h2>
+      <div
+        v-if="note.excerpt"
+        v-html="note.excerpt"
+      ></div>
+      <div class="read-more">
+        <a class="link" aria-label="read more" :href="note.url">Read more →</a>
+      </div>
     </article>
   </li>
 </ul>
@@ -46,5 +53,8 @@ function getDateTime(time: number) {
 .title a {
   font-weight: 600;
   text-decoration: none;
+}
+.read-more {
+  margin-bottom: 2rem;
 }
 </style>

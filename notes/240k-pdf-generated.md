@@ -1,11 +1,20 @@
 ---
-title: 200K+ PDF Invoice in 24 Hours 
+title: 200K+ PDF Invoice in 24 Hours
 date: 2025-01-28
-image: ./240k-pdf-banner.png
+image: /240k-pdf-banner.png
 tags: system-design system pdf fastify typescript redis
 ---
 
 # 200K+ PDF Invoice in 24 Hours
+
+Alright, I admit it sounds like a clickbait title, but hear me out; that's exactly what happened.
+
+---
+::: tip TLDR
+I worked on a backend side project that generated 240,000+ PDF invoices in a 24-hour test. All services were built using Fastify, with Postgres, Redis and other services running as Docker containers on my local dev machine.
+:::
+
+
 
 ::: info Publish in Linkedin
 This blog was originally [publish in linkedin](https://www.linkedin.com/pulse/200k-pdf-invoice-24-hours-sabin-raj-dangol-yxvye/)
@@ -13,13 +22,6 @@ on 19 May, 2024 before my personal site was up and running.
 :::
 
 
-Alright, I admit it sounds like a clickbait title, but hear me out; that's exactly what happened.
-
-::: tip TLDR
-I worked on a backend side project that generated 240,000+ PDF invoices in a 24-hour test. All services were built using Fastify, with Postgres, Redis and other services running as Docker containers on my local dev machine.
-:::
-
----
 
 [[TOC]]
 
@@ -42,8 +44,9 @@ logic involved, for simplicity, let's assume each timesheet corresponds to a sin
 
 To streamline this process, I chose an event-driven architecture and a microservice pattern.
 
-![System Design](/aster-system-design.png)
-*System Design*
+|![System Design](/aster-system-design.png)| 
+|:--:| 
+| *System Design* |
 
 The timesheet service serves as the entry point to the system, providing an API for
 timesheet submission. Once a timesheet is stored in the database, an event is registered
@@ -62,7 +65,7 @@ operational process of the system.
 1. **Grafana** dashboard also running as docker container to present metrics visually.
 1. **Prisma** as an ORM.
 1. **BullMQ**: A redis based message queue.
-1. **FakerJS*8 and **RosieJS** to generate fake data for testing. 
+1. **FakerJS** and **RosieJS** to generate fake data for testing. 
 1. **Locust** for running the load test.
 
 ## Timesheet Service
