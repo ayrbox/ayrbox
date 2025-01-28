@@ -1,13 +1,20 @@
 ---
-title: Finally Off the list
+title: Finally off the list
 date: 2024-12-06
 ---
 
-# Finally Off the list 
+# Finally off the list 
 
 Finally, I have get ayrbox.com up and running. 
 
-> Leap and the net will appear - By John Burroughs
+---
+
+::: tip By John Burroughs 
+Leap and the net will appear. 
+:::
+
+
+[[TOC]]
 
 ## Background
 
