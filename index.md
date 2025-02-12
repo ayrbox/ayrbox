@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "ayrbox"
-  tagline: "Personal Notes" 
+  tagline: "My Personal Notes" 
   actions:
     - theme: brand
       text: View 
