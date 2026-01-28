@@ -16,7 +16,6 @@ export { data }
 export default createContentLoader('notes/*.md', {
   excerpt: true,
   transform(raw): Note[] {
-    console.dir(raw, { depth: Infinity });
     const notes = raw
       .map(({ url, frontmatter, excerpt }) => ({
         title: frontmatter.title,
@@ -25,7 +24,6 @@ export default createContentLoader('notes/*.md', {
         excerpt,
       }))
       .sort((a, b) => b.date.time - a.date.time)
-    console.log(notes)
     return notes;
   },
 })
